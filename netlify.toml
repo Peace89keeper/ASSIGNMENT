@@ -1,0 +1,10 @@
+[build]
+  base = "assignment"
+  publish = "dist"     # resolved relative to base
+  command = "npm run build"
+
+# redirect all routes to index.html for SPA routing
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

@@ -1,4 +1,9 @@
 {
+  "version": 2,
+  
+  "rootDirectory": "assignment",
+  "installCommand": "npm install --legacy-peer-deps",
+  "buildCommand": "npm run build",
   "rewrites": [
     {
       "source": "/(.*)",

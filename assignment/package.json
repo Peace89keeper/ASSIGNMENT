@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "npx kill-port 5173 && vite --port 5173",
+    "start": "npm run dev",
     "lint": "eslint .",
     "preview": "vite preview",
     "build": "vite build"

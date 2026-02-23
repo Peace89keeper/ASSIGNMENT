@@ -8,7 +8,7 @@
     "start": "npm run dev",
     "lint": "eslint .",
     "preview": "vite preview",
-    "build": "vite build"
+    "build": "vite build --outDir build"
   },
   "dependencies": {
     "leaflet": "^1.9.4",

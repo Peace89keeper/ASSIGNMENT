@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "outputDirectory": "dist",
+  "outputDirectory": "build",
   "builds": [
     {
       "src": "package.json",
       "use": "@vercel/static-build",
-      "config": { "distDir": "dist" }
+      "config": { "distDir": "build" }
     }
   ],
   "routes": [
